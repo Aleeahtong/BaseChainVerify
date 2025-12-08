@@ -1,0 +1,33 @@
+{
+  "name": "basechainverify-backend",
+  "version": "0.1.0",
+  "description": "Backend API for BaseChainVerify",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "base",
+    "verification",
+    "ipfs",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "crypto": "^1.0.1",
+    "ipfs-http-client": "^60.0.1",
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+

@@ -1,0 +1,9 @@
+# Foundry
+cache/
+out/
+broadcast/
+lib/
+
+# Environment
+.env
+

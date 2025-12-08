@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output
+
+# Production
+build/
+dist/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Foundry
+cache/
+out/
+broadcast/
+
+# Next.js
+.next/
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IPFS
+ipfs-data/
+
+# ZK
+circuits/artifacts/
+circuits/keys/
+proofs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# shell scripts
+git_push.sh

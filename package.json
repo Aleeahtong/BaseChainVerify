@@ -1,0 +1,32 @@
+{
+  "name": "basechainverify",
+  "version": "0.1.0",
+  "description": "On-Chain Proof of Real-World Assets via Cryptographic Certificates on Base",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd contracts && forge install OpenZeppelin/openzeppelin-contracts && cd ../frontend && npm install && cd ../backend && npm install",
+    "test:contracts": "cd contracts && forge test",
+    "build:contracts": "cd contracts && forge build",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "lint": "cd frontend && npm run lint",
+    "format": "cd contracts && forge fmt"
+  },
+  "keywords": [
+    "base",
+    "blockchain",
+    "verification",
+    "certificates",
+    "ipfs",
+    "zk-proofs",
+    "nft",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/basechainverify.git"
+  }
+}
+
