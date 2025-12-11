@@ -26,7 +26,7 @@ export function UploadDocument() {
   const [hash, setHash] = useState('')
   const [ipfsCid, setIpfsCid] = useState('')
 
-  const { writeContract, data: hash: txHash, isPending } = useWriteContract()
+  const { writeContract, data: txHash, isPending } = useWriteContract()
   const { isLoading: isConfirming, isSuccess } = useWaitForTransactionReceipt({
     hash: txHash,
   })
